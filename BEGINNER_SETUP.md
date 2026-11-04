@@ -157,7 +157,3 @@ src/
 - **表單驗證**：react-hook-form + zod
 - **UI**：Tailwind CSS v4、Radix UI、shadcn 風格元件
 - **後端檢索**：Qdrant（向量資料庫）+ LightRAG（RAG 查詢服務）
-
-## 授權
-
-（請依實際情況補充授權條款）
