@@ -94,7 +94,3 @@ src/
 ## 後端 API 代理
 
 前端呼叫 `/api/v1/chat/completions`，由 `src/server.ts` 轉發至 `LLM_API_BASE_URL` 指定的上游服務（預設 `http://127.0.0.1:2828`），並附上 `Authorization: Bearer ${LLM_API_KEY}`（若有設定）。若上游服務未啟動，問卷送出後的推薦產出與 AI 問答將會失敗。
-
-## 授權
-
-（請依實際情況補充授權條款）
